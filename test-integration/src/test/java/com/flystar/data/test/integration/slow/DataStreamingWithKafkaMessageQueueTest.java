@@ -13,6 +13,7 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.io.File;
@@ -25,6 +26,7 @@ import static org.junit.Assert.assertThat;
 /**
  * Created by zack on 6/5/2016.
  */
+@Ignore
 public class DataStreamingWithKafkaMessageQueueTest extends AbstractTest{
 
     private File file;

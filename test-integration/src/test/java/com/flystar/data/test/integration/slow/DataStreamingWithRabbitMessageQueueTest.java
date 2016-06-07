@@ -10,6 +10,7 @@ import com.flystar.data.test.integration.Clock;
 import com.flystar.data.test.integration.FileDataSource;
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.io.File;
@@ -19,6 +20,7 @@ import java.time.Duration;
 /**
  * Created by zack on 6/7/2016.
  */
+@Ignore
 public class DataStreamingWithRabbitMessageQueueTest extends AbstractTest {
 
 
