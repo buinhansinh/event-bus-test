@@ -57,12 +57,7 @@ public class DataStreamingWithRabbitMessageQueueTest extends AbstractTest {
         log.info("Test takes: "+clock.duration()+" milliseconds");
     }
 
-    /*
-    *  The RabbitQueue is working properly but the configuration ( exchange types) are not configured properly therefore clients just receive a part of the event
-    *
-    *This test is expected to fail
-    * */
-    @Test
+       @Test
     public void testDataProcessorAnalyzeDataStreamingFromDataCollectorViaMessageQueue() throws IOException {
         final DataCollector dataReader = new DataCollector(new FileDataSource(file), createRabbitMessageQueue());
         final DataFormatAnalyzer dataAnalyzer = new DataFormatAnalyzer(createRabbitMessageQueue(), outputFile1);

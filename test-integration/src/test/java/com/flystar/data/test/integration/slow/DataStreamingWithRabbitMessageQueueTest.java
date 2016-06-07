@@ -56,7 +56,7 @@ public class DataStreamingWithRabbitMessageQueueTest extends AbstractTest {
     }
 
     /*
-    *  The RabbitQueue is working properly but the configuration ( exchange types) are not configured properly therefore clients just receive a part of the event
+    *  The RabbitQueue is working properly but the configuration is not optimized. It will take more than 1 hour to send events to the cloud and receive the events back from the cloud
     *
     *This test is expected to fail
     * */
