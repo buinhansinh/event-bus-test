@@ -64,8 +64,9 @@ public class RabbitMQConfiguration {
         return decrypt(password);
     }
 
+    public static final String EXCHANGE_NAME = UUID.randomUUID().toString();
     public static RabbitMQConfiguration getDefault() {
-        return new RabbitMQConfiguration(10,"104.155.53.68", "flystar", "Zmx5c3Rhci10ZXN0", "EXCHANGE."+UUID.randomUUID().toString(), UUID.randomUUID().toString(),10, "topic");
+        return new RabbitMQConfiguration(2,"104.155.53.68", "flystar", "Zmx5c3Rhci10ZXN0", "EXCHANGE."+EXCHANGE_NAME, UUID.randomUUID().toString(),2, "topic");
     }
 
     public String getExchangeType() {

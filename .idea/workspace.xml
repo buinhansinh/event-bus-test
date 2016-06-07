@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af50d88a-de99-4065-9db6-398c62591139" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-integration/src/test/java/com/flystar/data/test/integration/quick/DataStreamingWithRabbitMessageQueueTest.java" afterPath="$PROJECT_DIR$/test-integration/src/test/java/com/flystar/data/test/integration/quick/DataStreamingWithRabbitMessageQueueTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-integration/src/test/java/com/flystar/data/test/integration/slow/DataStreamingWithRabbitMessageQueueTest.java" afterPath="$PROJECT_DIR$/test-integration/src/test/java/com/flystar/data/test/integration/slow/DataStreamingWithRabbitMessageQueueTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/message-queue-rabbitmq/src/main/java/com/flystar/message/rabbit/RabbitMQConfiguration.java" afterPath="$PROJECT_DIR$/message-queue-rabbitmq/src/main/java/com/flystar/message/rabbit/RabbitMQConfiguration.java" />
     </list>
     <ignored path="data-pj.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,24 +50,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeviceLongevityDetector.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-proccesor/src/main/java/com/flystar/data/processor/event/DeviceLongevityDetector.java">
+      <file leaf-file-name="DataStreamingWithRabbitMessageQueueTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-integration/src/test/java/com/flystar/data/test/integration/slow/DataStreamingWithRabbitMessageQueueTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="70" column="43" selection-start-line="70" selection-start-column="43" selection-end-line="70" selection-end-column="43" />
-              <folding>
-                <element signature="e#2692#2693#0" expanded="false" />
-                <element signature="e#2756#2757#0" expanded="false" />
-              </folding>
+              <caret line="58" column="183" selection-start-line="58" selection-start-column="183" selection-end-line="58" selection-end-column="183" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataStreamingWithRabbitMessageQueueTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test-integration/src/test/java/com/flystar/data/test/integration/slow/DataStreamingWithRabbitMessageQueueTest.java">
+      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test-integration/src/test/resources/log4j.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.58816963">
-              <caret line="58" column="183" selection-start-line="58" selection-start-column="183" selection-end-line="58" selection-end-column="183" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -117,7 +113,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="123" column="51" selection-start-line="123" selection-start-column="51" selection-end-line="123" selection-end-column="51" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -139,24 +137,9 @@
         <entry file="file://$PROJECT_DIR$/message-queue-rabbitmq/src/main/java/com/flystar/message/rabbit/RabbitMQConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="67" column="104" selection-start-line="67" selection-start-column="104" selection-end-line="67" selection-end-column="104" />
+              <caret line="68" column="148" selection-start-line="68" selection-start-column="148" selection-end-line="68" selection-end-column="148" />
               <folding>
-                <element signature="e#1229#1230#0" expanded="false" />
-                <element signature="e#1268#1269#0" expanded="false" />
-                <element signature="e#1303#1304#0" expanded="false" />
-                <element signature="e#1334#1335#0" expanded="false" />
-                <element signature="e#1373#1374#0" expanded="false" />
-                <element signature="e#1408#1409#0" expanded="false" />
-                <element signature="e#1444#1445#0" expanded="false" />
-                <element signature="e#1476#1477#0" expanded="false" />
-                <element signature="e#1520#1521#0" expanded="false" />
-                <element signature="e#1563#1564#0" expanded="false" />
-                <element signature="e#1598#1599#0" expanded="false" />
-                <element signature="e#1629#1630#0" expanded="false" />
-                <element signature="e#1680#1681#0" expanded="false" />
-                <element signature="e#1720#1721#0" expanded="false" />
-                <element signature="e#1998#1999#0" expanded="false" />
-                <element signature="e#2033#2034#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -232,7 +215,6 @@
         <option value="$PROJECT_DIR$/test-integration/src/test/java/com/flystar/data/test/integration/Clock.java" />
         <option value="$PROJECT_DIR$/test-integration/src/test/java/com/flystar/data/test/integration/quick/DataStreamingWithVertxMessageQueueTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/test-integration/src/test/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/message-queue-kafka/src/main/java/com/flystar/message/kafka/EventConsumer.java" />
         <option value="$PROJECT_DIR$/test-integration/src/test/java/com/flystar/data/test/integration/AbstractTest.java" />
         <option value="$PROJECT_DIR$/test-integration/src/test/java/com/flystar/data/test/integration/quick/DataStreamingWithKafkaMessageQueueTest.java" />
@@ -241,10 +223,11 @@
         <option value="$PROJECT_DIR$/message-queue-rabbitmq/src/main/java/com/flystar/message/rabbit/RabbitMessageQueue.java" />
         <option value="$PROJECT_DIR$/test-integration/src/test/java/com/flystar/data/test/integration/slow/DataStreamingWithKafkaMessageQueueTest.java" />
         <option value="$PROJECT_DIR$/test-integration/src/test/java/com/flystar/data/test/integration/slow/DataStreamingWithVertxMessageQueueTest.java" />
-        <option value="$PROJECT_DIR$/message-queue-rabbitmq/src/main/java/com/flystar/message/rabbit/RabbitMQConfiguration.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/test-integration/src/test/java/com/flystar/data/test/integration/quick/DataStreamingWithRabbitMessageQueueTest.java" />
         <option value="$PROJECT_DIR$/test-integration/src/test/java/com/flystar/data/test/integration/slow/DataStreamingWithRabbitMessageQueueTest.java" />
+        <option value="$PROJECT_DIR$/message-queue-rabbitmq/src/main/java/com/flystar/message/rabbit/RabbitMQConfiguration.java" />
+        <option value="$PROJECT_DIR$/test-integration/src/test/resources/log4j.properties" />
       </list>
     </option>
   </component>
@@ -1248,20 +1231,20 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DataStreamingWithKafkaMessageQueueTest - 2016.06.07 at 23h 08m 01s.xml">
-      <configuration name="DataStreamingWithKafkaMessageQueueTest" configurationId="JUnit" />
+    <history-entry file="DataStreamingWithRabbitMessageQueueTest - 2016.06.08 at 01h 09m 46s.xml">
+      <configuration name="DataStreamingWithRabbitMessageQueueTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DataStreamingWithKafkaMessageQueueTest - 2016.06.07 at 23h 41m 36s.xml">
-      <configuration name="DataStreamingWithKafkaMessageQueueTest" configurationId="JUnit" />
+    <history-entry file="DataStreamingWithRabbitMessageQueueTest - 2016.06.08 at 01h 14m 36s.xml">
+      <configuration name="DataStreamingWithRabbitMessageQueueTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DataStreamingWithRabbitMessageQueueTest_(1) - 2016.06.07 at 23h 43m 08s.xml">
-      <configuration name="DataStreamingWithRabbitMessageQueueTest (1)" configurationId="JUnit" />
+    <history-entry file="DataStreamingWithRabbitMessageQueueTest - 2016.06.08 at 01h 15m 52s.xml">
+      <configuration name="DataStreamingWithRabbitMessageQueueTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DataStreamingWithRabbitMessageQueueTest_(1) - 2016.06.07 at 23h 44m 38s.xml">
-      <configuration name="DataStreamingWithRabbitMessageQueueTest (1)" configurationId="JUnit" />
+    <history-entry file="DataStreamingWithRabbitMessageQueueTest - 2016.06.08 at 01h 17m 46s.xml">
+      <configuration name="DataStreamingWithRabbitMessageQueueTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DataStreamingWithRabbitMessageQueueTest_(1) - 2016.06.07 at 23h 45m 28s.xml">
-      <configuration name="DataStreamingWithRabbitMessageQueueTest (1)" configurationId="JUnit" />
+    <history-entry file="DataStreamingWithRabbitMessageQueueTest - 2016.06.08 at 01h 18m 07s.xml">
+      <configuration name="DataStreamingWithRabbitMessageQueueTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="DataStreamingWithRabbitMessageQueueTest_(1) - 2016.06.07 at 23h 46m 24s.xml">
       <configuration name="DataStreamingWithRabbitMessageQueueTest (1)" configurationId="JUnit" />
@@ -1290,10 +1273,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.020255864" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52380955" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6652221" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31960997" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26705757" sideWeight="0.49411765" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27132195" sideWeight="0.49411765" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1381,22 +1364,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="67" column="104" selection-start-line="67" selection-start-column="104" selection-end-line="67" selection-end-column="104" />
           <folding>
-            <element signature="e#1229#1230#0" expanded="false" />
-            <element signature="e#1268#1269#0" expanded="false" />
-            <element signature="e#1303#1304#0" expanded="false" />
-            <element signature="e#1334#1335#0" expanded="false" />
-            <element signature="e#1373#1374#0" expanded="false" />
-            <element signature="e#1408#1409#0" expanded="false" />
-            <element signature="e#1444#1445#0" expanded="false" />
-            <element signature="e#1476#1477#0" expanded="false" />
-            <element signature="e#1520#1521#0" expanded="false" />
-            <element signature="e#1563#1564#0" expanded="false" />
-            <element signature="e#1598#1599#0" expanded="false" />
-            <element signature="e#1629#1630#0" expanded="false" />
-            <element signature="e#1680#1681#0" expanded="false" />
-            <element signature="e#1720#1721#0" expanded="false" />
-            <element signature="e#1998#1999#0" expanded="false" />
-            <element signature="e#2033#2034#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1524,6 +1492,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1611,7 +1580,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1629,13 +1598,6 @@
         <state vertical-scroll-proportion="-13.230769">
           <caret line="120" column="26" selection-start-line="120" selection-start-column="26" selection-end-line="120" selection-end-column="26" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-integration/src/test/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1664,6 +1626,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1712,14 +1675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/message-queue-rabbitmq/src/main/java/com/flystar/message/rabbit/RabbitMessageQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="123" column="51" selection-start-line="123" selection-start-column="51" selection-end-line="123" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test-integration/src/test/java/com/flystar/data/test/integration/slow/DataStreamingWithKafkaMessageQueueTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1751,31 +1706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/message-queue-rabbitmq/src/main/java/com/flystar/message/rabbit/RabbitMQConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="67" column="104" selection-start-line="67" selection-start-column="104" selection-end-line="67" selection-end-column="104" />
-          <folding>
-            <element signature="e#1229#1230#0" expanded="false" />
-            <element signature="e#1268#1269#0" expanded="false" />
-            <element signature="e#1303#1304#0" expanded="false" />
-            <element signature="e#1334#1335#0" expanded="false" />
-            <element signature="e#1373#1374#0" expanded="false" />
-            <element signature="e#1408#1409#0" expanded="false" />
-            <element signature="e#1444#1445#0" expanded="false" />
-            <element signature="e#1476#1477#0" expanded="false" />
-            <element signature="e#1520#1521#0" expanded="false" />
-            <element signature="e#1563#1564#0" expanded="false" />
-            <element signature="e#1598#1599#0" expanded="false" />
-            <element signature="e#1629#1630#0" expanded="false" />
-            <element signature="e#1680#1681#0" expanded="false" />
-            <element signature="e#1720#1721#0" expanded="false" />
-            <element signature="e#1998#1999#0" expanded="false" />
-            <element signature="e#2033#2034#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.6296296">
@@ -1796,8 +1726,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test-integration/src/test/java/com/flystar/data/test/integration/slow/DataStreamingWithRabbitMessageQueueTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58816963">
+        <state vertical-scroll-proportion="0.0">
           <caret line="58" column="183" selection-start-line="58" selection-start-column="183" selection-end-line="58" selection-end-column="183" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-queue-rabbitmq/src/main/java/com/flystar/message/rabbit/RabbitMessageQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="123" column="51" selection-start-line="123" selection-start-column="51" selection-end-line="123" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-queue-rabbitmq/src/main/java/com/flystar/message/rabbit/RabbitMQConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="68" column="148" selection-start-line="68" selection-start-column="148" selection-end-line="68" selection-end-column="148" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-integration/src/test/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
           <folding />
         </state>
       </provider>
