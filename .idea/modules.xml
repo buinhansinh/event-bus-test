@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/data.iml" filepath="$PROJECT_DIR$/data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data-common/data-common.iml" filepath="$PROJECT_DIR$/data-common/data-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data-message-queue-api/data-message-queue.iml" filepath="$PROJECT_DIR$/data-message-queue-api/data-message-queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data-collector/datacollector.iml" filepath="$PROJECT_DIR$/data-collector/datacollector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data-format-analyzer/dataformatanalyzer.iml" filepath="$PROJECT_DIR$/data-format-analyzer/dataformatanalyzer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data-proccesor/dataproccesor.iml" filepath="$PROJECT_DIR$/data-proccesor/dataproccesor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/message-queue-chronicle/message-queue-chronicle.iml" filepath="$PROJECT_DIR$/message-queue-chronicle/message-queue-chronicle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/message-queue-kafka/message-queue-kafka.iml" filepath="$PROJECT_DIR$/message-queue-kafka/message-queue-kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/message-queue-rabbitmq/message-queue-rabbitmq.iml" filepath="$PROJECT_DIR$/message-queue-rabbitmq/message-queue-rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/message-queue-vertx/message-queue-vertx.iml" filepath="$PROJECT_DIR$/message-queue-vertx/message-queue-vertx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-integration/test-integration.iml" filepath="$PROJECT_DIR$/test-integration/test-integration.iml" />
+    </modules>
+  </component>
+</project>

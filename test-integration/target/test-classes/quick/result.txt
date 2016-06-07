@@ -1,0 +1,14 @@
+{
+  "launch" : [ {
+    "type" : "launch",
+    "fields" : [ "application", "consent", "device", "event_id", "format", "network", "sender_info", "source", "system", "tenant_id", "time", "timestamp", "type" ]
+  } ],
+  "user_interaction" : [ {
+    "type" : "user_interaction",
+    "fields" : [ "application", "consent", "device", "event_id", "format", "network", "sender_info", "source", "system", "tenant_id", "time", "timestamp", "type", "user_interaction" ]
+  } ],
+  "metric" : [ {
+    "type" : "metric",
+    "fields" : [ "application", "consent", "device", "event_id", "format", "metric", "network", "sender_info", "source", "system", "tenant_id", "time", "timestamp", "type" ]
+  } ]
+}

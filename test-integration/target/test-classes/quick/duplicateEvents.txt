@@ -1,0 +1,4 @@
+{
+  "title" : "There are 0 duplicated events",
+  "events" : [ ]
+}
