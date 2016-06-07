@@ -65,7 +65,7 @@ public class RabbitMQConfiguration {
     }
 
     public static RabbitMQConfiguration getDefault() {
-        return new RabbitMQConfiguration(1,"104.155.53.68", "flystar", "Zmx5c3Rhci10ZXN0", "FLYSTAR_EVENT", UUID.randomUUID().toString(),1, "topic");
+        return new RabbitMQConfiguration(10,"104.155.53.68", "flystar", "Zmx5c3Rhci10ZXN0", "EXCHANGE."+UUID.randomUUID().toString(), UUID.randomUUID().toString(),10, "topic");
     }
 
     public String getExchangeType() {
