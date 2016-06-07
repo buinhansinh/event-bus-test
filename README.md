@@ -69,6 +69,12 @@ mBD5pZ+j7RqGYgdM63a9PKjL4HFFFhisp9uMbgGXOiZXkLlNktEE3ActS1v0qxXp
 
 ```
 
+## Clone the project
+
+```
+git clone git@github.com:buinhansinh/fsecure-test.git
+```
+
 ## Access jenkins
 
 ```
